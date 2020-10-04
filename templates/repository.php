@@ -1,9 +1,9 @@
 <div class="github-embed github-embed-repository <?php echo $data['logo_class'] ?>">
     <p>
         <a href="<?php echo esc_attr( $data['repo']->html_url ) ?>" target="_blank">
-        <?php echo esc_html( $data['repo']->title ) ?>
+			<?php echo esc_html( $data['repo']->title ) ?>
 		</a>
-        <strong>
+		<strong>
 				<?php echo esc_html( $data['repo']->description ) ?>
 		</strong>
 		<br>

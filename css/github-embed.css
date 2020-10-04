@@ -1,16 +1,17 @@
 .github-embed {
 	padding: 0.5em 2em 0.5em 4em;
-	background-color: #fdfdfd;
-	color: #111;
-	width: 80%;
+	background-color: #181818;
+	color: #f1f1f1;
+	width: 100%;
 	margin: auto;
 	margin-bottom: 1em;
-	background-image: url('../img/github-logos/mark.png');
+	background-image: url('../img/github-logos/mark_light.png');
 	background-repeat: no-repeat;
 	background-position: 1em 1em;
-	-webkit-box-shadow: 2px 2px 2px #ddd;
-	-moz-box-shadow: 2px 2px 2px #ddd;
-	box-shadow: 2px 2px 2px #ddd;
+	-webkit-box-shadow: 2px 2px 2px #151515;
+	-moz-box-shadow: 2px 2px 2px #151515;
+	box-shadow: 2px 2px 2px #151515;
+	border-radius: 25px;
 }
 
 .github-embed.github-logo-octocat {
@@ -18,7 +19,7 @@
 }
 
 .github-embed.github-logo-mark {
-	background-image: url('../img/github-logos/mark.png');
+	background-image: url('../img/github-logos/mark_light.png');
 }
 
 li.github-repo-contributor {
